@@ -42,3 +42,9 @@ Part5-End : React State
 - Event handler
 - State Management
 - React Hook : useState
+
+### Part6-End  
+Part6-End : Passing Props
+- From Child to Parent via setter method
+- Child to Sister via Parent
+- React Hook : useEffect
