@@ -55,3 +55,8 @@ Part7-End : Conditional Rendering
 - Element variable
 - Ternary conditional Operator
 - Short circuit Operator
+
+### Part8-End  
+Part8-End : API Call
+- React Life Cycle method : componentDidMount
+- React Hook : useEffect , useState
