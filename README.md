@@ -30,3 +30,6 @@ Part1-End : Adding child component
 ### Part2-End  
 Part2-End : Understanding React.createElement without JSX
 - create element with React.createElement and nested html
+
+### Part3-End  
+Part3-End : props Pass to the child component
