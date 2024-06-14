@@ -7,6 +7,8 @@ import MyFunctionalComponent3 from './components/MyFunctionalComponent3';
 import { Component1, Component2 } from './components/MyComponent';
 import MyClass1 from './components/MyClass1';
 import MyFunction1 from './components/MyFunction1';
+import MyClassCounter from './components/part5/MyClassCounter';
+import MyFunctionalCounter from './components/part5/MyFunctionalCounter';
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
       <hr/>
       <MyClass1/>
       <MyFunction1/>
+      <hr/>
+      <MyClassCounter/>
+      <MyFunctionalCounter/>
     </div>
   );
 }
