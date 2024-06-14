@@ -21,3 +21,8 @@ git push -u origin --all
 
 ### Part0-End 
 Part0-End : Initial React Code 
+
+### Part1-End  
+Part1-End : Adding child component 
+- Class based component
+- Functional component
