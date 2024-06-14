@@ -48,3 +48,10 @@ Part6-End : Passing Props
 - From Child to Parent via setter method
 - Child to Sister via Parent
 - React Hook : useEffect
+
+### Part7-End  
+Part7-End : Conditional Rendering
+- If/Else condition check
+- Element variable
+- Ternary conditional Operator
+- Short circuit Operator
