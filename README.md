@@ -26,3 +26,7 @@ Part0-End : Initial React Code
 Part1-End : Adding child component 
 - Class based component
 - Functional component
+
+### Part2-End  
+Part2-End : Understanding React.createElement without JSX
+- create element with React.createElement and nested html
