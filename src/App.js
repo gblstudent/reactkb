@@ -1,10 +1,10 @@
 import './App.css';
-import DemoMemo from './components/part14/DemoMemo';
+import MyCallbackDemo from './components/part15/MyCallbackDemo';
 
 function App() {
   return (
     <div className="App">
-      <DemoMemo/>
+      <MyCallbackDemo/>
     </div>
   );
 }

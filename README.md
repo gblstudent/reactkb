@@ -99,3 +99,8 @@ Part14-Start : Prevent Re-Rendering
 ### Part14-End  
 Part14-End : Prevent Re-Rendering
 - React Hook : useMemo
+
+### Part15-Begin  
+Part15-Start : Prevent Child Re-Rendering 
+- Function is re-creating when ever a state change
+- Prerequisite of useCallback Hook
