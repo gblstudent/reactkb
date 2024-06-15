@@ -1,17 +1,20 @@
-import {  useRef, useState } from "react";
+import {  createContext, useState } from "react";
 import Login from "./Login";
 import User from "./User";
+
+export const AppContext = createContext(null);
 
 function ContextDemo() {
     const [userName, setUserName] = useState("");
     return (
-    <div>
+    <AppContext.Provider value={{userName, setUserName}}>
+
         Hello World - Parent Component : {userName}<br/> 
         <hr/>
-        <Login setUserName={setUserName} />
+        <Login/>
         <hr/>
-        <User userName={userName} />
-    </div>    
+        <User/>
+    </AppContext.Provider>    
   );
 }
 

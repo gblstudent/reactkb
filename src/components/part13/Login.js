@@ -1,4 +1,8 @@
-function Login({ setUserName }) {
+import { useContext } from "react";
+import { AppContext } from "./ContextDemo";
+
+function Login() {
+  const {setUserName} = useContext(AppContext);
   return (
     <div>
       Sister 1<br />
