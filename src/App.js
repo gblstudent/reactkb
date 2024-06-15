@@ -1,16 +1,10 @@
-
-import MyClassApi from './components/part8/MyClassApi';
-import MyFunctionalApi from './components/part8/MyFunctionalApi';
+import './App.css';
+import MyReducerDemo from './components/part9/MyReducerDemo';
 
 function App() {
   return (
-    <div style={{display : 'flex' , flexWrap : 'wrap'}}>
-      <div className="App" >
-        <MyFunctionalApi/>
-      </div>
-      <div className="App">
-        <MyClassApi/>
-      </div>
+    <div className="App">
+      <MyReducerDemo/>
     </div>
   );
 }

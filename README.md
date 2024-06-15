@@ -60,3 +60,6 @@ Part7-End : Conditional Rendering
 Part8-End : API Call
 - React Life Cycle method : componentDidMount
 - React Hook : useEffect , useState
+
+### Part9-Begin  
+Part8-Start : Prerequisite of useReducer Hook
