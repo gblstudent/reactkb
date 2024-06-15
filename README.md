@@ -91,3 +91,7 @@ Part13-Start : Sister pass props via Parent
 ### Part13-End 
 Part13-End : Sister pass props via Parent
 - React Hook : useContext
+
+### Part14-Begin  
+Part14-Start : Prevent Re-Rendering
+- Prerequisite of useMemo Hook

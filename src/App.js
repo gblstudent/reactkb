@@ -1,10 +1,10 @@
 import './App.css';
-import ContextDemo from './components/part13/ContextDemo';
+import DemoMemo from './components/part14/DemoMemo';
 
 function App() {
   return (
     <div className="App">
-      <ContextDemo/>
+      <DemoMemo/>
     </div>
   );
 }
