@@ -51,6 +51,7 @@ function DemoMemo() {
   return (
     <div>
         <div>{internalComputeFindLongestTodoName(todos)}</div>
+        <button onClick={ getData} > Refresh </button><br/><br/>
         <button onClick={ actionUpdateToggle1} > Toggle1 </button>
         <div>{toggle1 && <div>Toggle 1</div> }</div>
         <button onClick={ actionUpdateToggle2} > Toggle2 </button>
