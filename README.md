@@ -79,3 +79,7 @@ Part11-End : React Hooks
 ### Part12-Begin  
 Part12-Start : Parent will use child's method
 - Prerequisite of useImperativeHandle Hook
+
+### Part12-End  
+Part12-End : Parent will use child's method
+- React Hook : useImperativeHandle
