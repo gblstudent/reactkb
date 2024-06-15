@@ -1,10 +1,10 @@
 import './App.css';
-import MyRefDemo from './components/part10/MyRefDemo';
+import MyReducerDemo from './components/part9/MyReducerDemo';
 
 function App() {
   return (
     <div className="App">
-      <MyRefDemo/>
+      <MyReducerDemo/>
     </div>
   );
 }
