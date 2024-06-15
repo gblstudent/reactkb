@@ -1,10 +1,10 @@
 import './App.css';
-import MyLayoutDemo from './components/part11/MyLayoutDemo';
+import DemoParent from './components/part12/DemoParent';
 
 function App() {
   return (
     <div className="App">
-      <MyLayoutDemo/>
+      <DemoParent/>
     </div>
   );
 }

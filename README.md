@@ -75,3 +75,7 @@ Part10-End : React Hooks
 ### Part11-End  
 Part11-End : React Hooks
 - React Hook : useLayoutEffect
+
+### Part12-Begin  
+Part12-Start : Parent will use child's method
+- Prerequisite of useImperativeHandle Hook
