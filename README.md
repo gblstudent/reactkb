@@ -95,3 +95,7 @@ Part13-End : Sister pass props via Parent
 ### Part14-Begin  
 Part14-Start : Prevent Re-Rendering
 - Prerequisite of useMemo Hook
+
+### Part14-End  
+Part14-End : Prevent Re-Rendering
+- React Hook : useMemo

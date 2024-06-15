@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 function DemoMemo() {
   const [todos, setTodos] = useState(null);
@@ -48,9 +48,11 @@ function DemoMemo() {
     return longestTodo;
   }
 
+  const internalComputeMemoFindLongestTodoName = useMemo(() => internalComputeFindLongestTodoName(todos) , [todos]);
   return (
     <div>
-        <div>{internalComputeFindLongestTodoName(todos)}</div>
+        <div>{internalComputeMemoFindLongestTodoName}</div>
+        <button onClick={ getData} > Refresh </button><br/><br/>
         <button onClick={ actionUpdateToggle1} > Toggle1 </button>
         <div>{toggle1 && <div>Toggle 1</div> }</div>
         <button onClick={ actionUpdateToggle2} > Toggle2 </button>
