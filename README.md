@@ -104,3 +104,8 @@ Part14-End : Prevent Re-Rendering
 Part15-Start : Prevent Child Re-Rendering 
 - Function is re-creating when ever a state change
 - Prerequisite of useCallback Hook
+
+### Part15-End  
+Part15-End : Prevent Child Re-Rendering 
+- Function is re-creating when ever a state change
+- React Hook : useCallback

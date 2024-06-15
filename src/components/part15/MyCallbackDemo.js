@@ -1,13 +1,14 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import MyCallbackChild from './MyCallbackChild';
 
 function MyCallbackDemo() {
   const [todos, setTodos] = useState("You have to work hard");
   const [toggle1, setToggle1] = useState(false);
   
-  const returnTodo = () => {
+  const returnTodo = useCallback(
+  () => {
     return todos;
-  }
+  },[todos]);
   
   return (
     <div>
