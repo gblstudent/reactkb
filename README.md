@@ -83,3 +83,7 @@ Part12-Start : Parent will use child's method
 ### Part12-End  
 Part12-End : Parent will use child's method
 - React Hook : useImperativeHandle
+
+### Part13-Begin  
+Part13-Start : Sister pass props via Parent
+- Prerequisite of useContext Hook
