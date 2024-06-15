@@ -1,13 +1,18 @@
 import { useState } from "react";
 
-export default function DemoChild() {
+const DemoChild = (props) => {
   const [toggle, setToggle] = useState(true);    
-    return (
+
+  const myToggle = () =>{
+    setToggle(!toggle);
+  }
+  return (
     <div>
         Hello World - Child Component <br/>
-        <button onClick={() => {setToggle(!toggle)}}>Child Button</button>
-        {toggle && <div> Toggle </div>}            
-    </div>
-    
+        <button onClick={myToggle}>Child Button</button>
+        {toggle && <div> Child Toggle </div>}          
+    </div>    
   );
 }
+
+export default DemoChild;
