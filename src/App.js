@@ -1,10 +1,10 @@
 import './App.css';
-import MyRefDemo from './components/part10/MyRefDemo';
+import MyLayoutDemo from './components/part11/MyLayoutDemo';
 
 function App() {
   return (
     <div className="App">
-      <MyRefDemo/>
+      <MyLayoutDemo/>
     </div>
   );
 }
