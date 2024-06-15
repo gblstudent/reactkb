@@ -62,4 +62,8 @@ Part8-End : API Call
 - React Hook : useEffect , useState
 
 ### Part9-Begin  
-Part8-Start : Prerequisite of useReducer Hook
+Part9-Start : Prerequisite of useReducer Hook
+
+### Part9-End  
+Part9-Start : End of useReducer Hook
+- React Hook : useReducer

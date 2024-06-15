@@ -1,19 +1,38 @@
-import { useState } from 'react';
+import { useReducer } from 'react';
+
+const myType = {
+    INCREMENT : "INCREMENT",
+    TOGGLEODD : "TOGGLEODD"
+}
+
+const myreducerfun = (state, action) => {
+    switch(action.type){
+        case "INCREMENT" :
+            return { count : state.count +1 , showOdd : state.showOdd}
+        case "TOGGLEODD" :
+            return { count : state.count , showOdd : !state.showOdd}
+        default:
+            return state;
+    }
+};
 
 export default function MyReducerDemo() {
-  const [count, setCount] = useState(1);
-  const [showOdd, setShowOdd] = useState(true);
+  const [state, dispatch] = useReducer(myreducerfun , 
+    {
+        count : 1,
+        showOdd : true
+    });
 
   function handleIncrement() {
-    setCount(count + 1);
-    setShowOdd(!showOdd);
+    dispatch({type : myType.INCREMENT});
+    dispatch({type : myType.TOGGLEODD});
   } 
 
   return (
     <div>
-        Counter : {count} <br/>
+        Reducer Counter : {state.count} <br/>
         <button onClick={handleIncrement}>Increment</button>
-        {showOdd && <div>This is Odd Number </div>}      
+        {state.showOdd && <div>This is Odd Number </div>}      
     </div>
     
   );
