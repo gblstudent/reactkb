@@ -109,3 +109,7 @@ Part15-Start : Prevent Child Re-Rendering
 Part15-End : Prevent Child Re-Rendering 
 - Function is re-creating when ever a state change
 - React Hook : useCallback
+
+### Part16-Begin  
+Part16-Start : HOC 
+- HOC Setup

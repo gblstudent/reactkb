@@ -1,10 +1,19 @@
 import './App.css';
-import MyCallbackDemo from './components/part15/MyCallbackDemo';
+import MyClassClickCounter from './components/part16/MyClassClickCounter';
+import MyClassMouseOverCounter from './components/part16/MyClassMouseOverCounter';
+import MyFunctionalClickCounter from './components/part16/MyFunctionalClickCounter';
+import MyFunctionalMouseOverCounter from './components/part16/MyFunctionalMouseOverCounter';
 
 function App() {
   return (
     <div className="App">
-      <MyCallbackDemo/>
+      <MyClassClickCounter/>
+      <hr/>
+      <MyClassMouseOverCounter/>
+      <hr/>
+      <MyFunctionalClickCounter/>
+      <hr/>
+      <MyFunctionalMouseOverCounter/>
     </div>
   );
 }
