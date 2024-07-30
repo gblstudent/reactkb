@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import UpdatedComponent from './withCounterFun';
 
 function MyFunctionalClickCounter({count,handleIncrement}) {
