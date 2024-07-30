@@ -6,9 +6,9 @@ class MyClassClickCounter extends React.Component{
             count : 0
         }
     }
-    handleIncrement(){
-        this.setState({
-            count : this.state.count + 1
+    handleIncrement = () =>{
+        this.setState(prevState => {
+            return {count : prevState.count + 1 }
         });
     }
     
@@ -16,7 +16,7 @@ class MyClassClickCounter extends React.Component{
         return(
             <div>
                 Class Counter : {this.state.count} <br/>
-                <button onClick={this.handleIncrement.bind(this)}>Increment</button>
+                <button onClick={this.handleIncrement}>Increment</button>
             </div>
         );
     }

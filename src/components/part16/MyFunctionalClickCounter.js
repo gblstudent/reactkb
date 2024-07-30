@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-export default function MyFunctionalClickCounter() {
+function MyFunctionalClickCounter() {
   const [count, setCount] = useState(0);
 
-  function handleIncrement() {
+  const handleIncrement =()=> {
     setCount(count + 1);
-  }
+  };
 
   return (
     <div>
@@ -15,3 +15,5 @@ export default function MyFunctionalClickCounter() {
     
   );
 }
+
+export default MyFunctionalClickCounter;

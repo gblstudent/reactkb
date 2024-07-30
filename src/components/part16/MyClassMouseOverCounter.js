@@ -6,16 +6,16 @@ class MyClassMouseOverCounter extends React.Component{
             count : 0
         }
     }
-    handleIncrement(){
-        this.setState({
-            count : this.state.count + 1
+    handleIncrement = () =>{
+        this.setState(prevState => {
+            return {count : prevState.count + 1 }
         });
-    }    
+    }   
     render(){
         return(
             <div>
                 Counter : {this.state.count} <br/>
-                <h2 onMouseOver={this.handleIncrement.bind(this)}>React Class - Mouse Over on this space</h2>
+                <h2 onMouseOver={this.handleIncrement}>React Class - Mouse Over on this space</h2>
             </div>
         );
     }
