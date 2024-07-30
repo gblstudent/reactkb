@@ -1,12 +1,7 @@
 import { useState } from 'react';
+import UpdatedComponent from './withCounterFun';
 
-export default function MyFunctionalClickCounter() {
-  const [count, setCount] = useState(0);
-
-  function handleIncrement() {
-    setCount(count + 1);
-  }
-
+function MyFunctionalClickCounter({count,handleIncrement}) {
   return (
     <div>
         Functional Counter : {count} <br/>
@@ -15,3 +10,5 @@ export default function MyFunctionalClickCounter() {
     
   );
 }
+
+export default UpdatedComponent(MyFunctionalClickCounter);

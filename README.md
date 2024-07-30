@@ -113,3 +113,8 @@ Part15-End : Prevent Child Re-Rendering
 ### Part16-Begin  
 Part16-Start : HOC 
 - HOC Setup
+
+### Part16-End  
+Part16-End : HOC
+- HOC Class based app
+- HOC Functional app

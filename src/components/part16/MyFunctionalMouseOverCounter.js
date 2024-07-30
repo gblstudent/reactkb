@@ -1,12 +1,8 @@
 import { useState } from 'react';
+import UpdatedComponent from './withCounterFun';
 
-export default function MyFunctionalMouseOverCounter() {
-  const [count, setCount] = useState(0);
-
-  function handleIncrement() {
-    setCount(count + 1);
-  }
-
+function MyFunctionalMouseOverCounter({count,handleIncrement}) {
+  
   return (
     <div>
         Functional Counter : {count} <br/>
@@ -15,3 +11,4 @@ export default function MyFunctionalMouseOverCounter() {
     
   );
 }
+export default UpdatedComponent(MyFunctionalMouseOverCounter);
